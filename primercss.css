@@ -1,0 +1,38 @@
+strong, b {
+	color:black;
+}
+u{
+	font-style: italic;
+
+}
+i, em{
+	font-family: Impact, 'Arial Narrow Bold' , sans-serif;
+	font-size: 4em;
+}
+em{
+	font-size: 2em;
+}
+/* Divs*/
+div{
+	display: inline-block;
+	border: 1px black dashed;
+	width: 100px;
+	height: 100px;
+}
+
+.rojo:first {
+	border-top: chartreuse;
+}
+
+#div1 {
+	font-weight: bolder;
+
+}
+
+.rojo{
+	background-color: red;
+	color: inherit;
+	border-color: yellow;
+	border-style: solid;
+
+}
