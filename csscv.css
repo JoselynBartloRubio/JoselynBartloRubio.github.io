@@ -1,27 +1,45 @@
+
+
 body{
-  background-color:  rgb(171, 199, 186);
+  background-color: white;
 }
 
 div.foto{
   float: left;
   width: 20%;
   height: 200px;
-  background-color: bisque;
+  background-color: white;
   text-align: center;
 }
 div.nombre{
   float: left;
   width: 40%;
   height: 200px;
-  background-color: rgb(94, 58, 15) ;
+  background-color: white ;
 
 }
 
+.contedor{
+  width: 500px;
+  height: 200px;
+  background: #ffffff;
+  padding: 10px;
+  border: 10x solid rgb(84, 8, 206);
+  margin: 20px;
 
-div.centrado{
-  float: right;
-  width: 60%;
-  height: 100px;
-  background-color: blueviolet;
+  
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content: flex-end;
 }
-
+.elemento{
+  display: inline-block;
+  height: 50px;
+  width: 200px;;
+  color: #ffffff;
+  margin: 5px;
+  background: #e67e22;
+  text-align: center;
+}
