@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="formulario_css.css">
+
+</head>
+<body>
+<h1>formularios</h1>
+
+<form action= "formularios.html" method="GET">   
+
+<h2>Datos del Usuario</h2>
+<label for="usuario"> Usuario</label>
+<input type="text" placeholder="ingresa tu usuario" name="usuario" id="usuario" autocomplete="false" maxlength="5">
+
+<br>
+
+<label for="contraseña">contrasena</label>
+<input type="password" placeholder="ingresa tu contraaseña" name="contrasena" id="contrasena" maxlength="5">
+
+
+<h2>diseña tu pizza</h2>
+
+<h3>tipo de masa</h3>
+<label for="masa">Elija el tipo de masa:</label>
+<select name="masa" id="masa">
+<option value="cl">Clasica</option>
+<option value="lg">light</option>
+<option value="cr">crunchy</option>
+</select>
+
+<h3>Tamaño</h3>
+
+<label for="chica" >  
+<input type="radio" name="tamano" id="t_chica"> Chica
+</label>
+
+
+<label for="mediana">
+<input type="radio" name="tamano" id="t_mediano">Mediano
+ </label>
+
+ <label for="grande">
+<input type="radio" name="tamano" id="t_grande">Grande
+ </label>
+
+<h3>ingredientes</h3>
+
+<label for="papas">
+	<input type="checkbox" name="papas" id="papas" checked> papas
+</label>
+
+<label for="i_queso">
+	<input type="checkbox" name="i_queso" id="i_queso"> queso
+</label>
+
+<label for="i_peperoni">
+	<input type="checkbox" name="i_peperoni" id="i_peperoni">peperoni
+</label>
+
+<label for="i_pollo">
+	<input type="checkbox" name="i_pollo" id="i_pollo">pollo
+	</label>
+
+<h3>Extras</h3>
+
+<label for="pollito">
+	<input type="checkbox" name="pollito" id="pollito">pollito
+</label>
+
+<label for="refresco">
+	<input type="checkbox" name="refresco" id="refresco">refresco
+</label>
+
+<label for="postre">
+	<input type="checkbox" name="postre" id="postre">postre
+</label>
+
+<h3> fecha de entrega</h3>
+<input type="date" name="fecha" id="fecha">
+<button type="submit">Enviar</button>
+</form>
+<script src="zepto.min.js"></script>
+<script src="formularios_js.js"></script>
+</body>
+</html>
