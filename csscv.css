@@ -41,6 +41,18 @@ div.nombre{
   grid-gap: 10px;
   grid-template-columns:  7fr 2fr;
 }
+.cont1{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: left;
+}
+.cont2{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  text-align: left;
+}
 .box1{
   grid-column:3 / 4 ; /*para unir columnas*/
   grid-row: 1 / 4; /*para unir filas*/
@@ -81,6 +93,6 @@ p.parrafo{
   color: rgb(109, 96, 96);
   text-align: justify;
 }
-#hr{
- background: red;
+h3{
+  text-align: left;
 }
