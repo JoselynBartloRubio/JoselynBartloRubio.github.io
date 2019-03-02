@@ -19,27 +19,68 @@ div.nombre{
 
 }
 
-.contedor{
-  width: 500px;
-  height: 200px;
-  background: #ffffff;
-  padding: 10px;
-  border: 10x solid rgb(84, 8, 206);
-  margin: 20px;
+.contenedor{
+  display: grid;
 
+  /*height: 100vh;*/
+ /* grid-template-columns: 50% 35% 15%; dar dimension a las columnas*/
+ /* column-gap: 10px; para agregar separacion de columnas*/
+ /* row-gap: 10px; para agragar separacion de filas*/
+   grid-gap: 10px;/* te agrega separacion tanto de filas como de columnas*/
+   grid-template-columns: 3fr 1fr; /*es el tamaño proporcional de las columnas*/
+   /*grid-template-columns: repeat(2,1fr);*/
+ /* grid-template-rows: 2fr 1fr 3fr;/* es el tamaño de las filas*/
+
+ 
   
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-
-  justify-content: flex-end;
 }
-.elemento{
-  display: inline-block;
-  height: 50px;
-  width: 200px;;
-  color: #ffffff;
-  margin: 5px;
-  background: #e67e22;
+/*.caja{
+  grid-area: 1 / 2 / 5 / 6;/*inicio fila-inicio columna-fin fila- fin columna*/
+.contenedor2{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:  7fr 2fr;
+}
+.box1{
+  grid-column:3 / 4 ; /*para unir columnas*/
+  grid-row: 1 / 4; /*para unir filas*/
+
+}
+#figura{
+  background: blue;
+  color: white;
+}
+#emp{
+  background: black;
+  color: white;
+  text-align: left;
+}
+#dir{
+  background: white;
+  color: rgb(138, 128, 128);
+  text-align: left;
+}
+
+.box{
+  background:white;
+  padding: 10px;
+  color:black;
   text-align: center;
+
+}
+.box2{
+  background: white;
+  padding: 10px;
+  color: rgb(109, 96, 96);
+  text-align: center;
+
+}
+p.parrafo{
+  background: white;
+  padding: 10px;
+  color: rgb(109, 96, 96);
+  text-align: justify;
+}
+#hr{
+ background: red;
 }
