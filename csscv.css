@@ -53,6 +53,12 @@ div.nombre{
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
   text-align: left;
 }
+.cont3{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 1fr;
+  text-align: left;
+}
 .box1{
   grid-column:3 / 4 ; /*para unir columnas*/
   grid-row: 1 / 4; /*para unir filas*/
@@ -90,7 +96,7 @@ div.nombre{
 p.parrafo{
   background: white;
   padding: 10px;
-  color: rgb(109, 96, 96);
+  color: rgb(36, 33, 33);
   text-align: justify;
 }
 h3{
