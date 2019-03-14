@@ -1,0 +1,13 @@
+.contenedor{
+    height: 100vh;
+    display: grid;
+     grid-template-columns: 6fr 2fr; /*es el tamaño proporcional de las columnas*/   
+     grid-gap: 5px;
+  }
+  .box{
+    background:palevioletred;
+    padding: 10px;
+    color:black;
+    text-align: center;
+  
+  }
