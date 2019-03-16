@@ -1,6 +1,6 @@
 var numero = prompt('Indica un numero mayor o igual a 20');
 
-alert('Tu decidiste: ' + numero);
+alert('Tu elegiste el numero: ' + numero);
 
 //genero mis variables
 let mult2 = document.getElementById("mul2");
@@ -41,7 +41,7 @@ botones();
 mult2.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 2 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#00FF7F";   
+        document.getElementById("boton_" + i).style.background = "#DF013A";   
         ocupados.push(i);
       } 
     }
@@ -50,7 +50,7 @@ mult2.onclick = function(){
 mult3.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 3 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#8B814C";
+        document.getElementById("boton_" + i).style.background = "#0000FF";
         ocupados.push(i);   
       } 
     }
@@ -58,7 +58,7 @@ mult3.onclick = function(){
 mult4.onclick = function(){
     for(i = 1; i <= numero; i++ ){
       if (i % 4 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#FFFF00";   
+        document.getElementById("boton_" + i).style.background = "#2E2E2E";   
         ocupados.push(i);
       } 
     }
@@ -66,7 +66,7 @@ mult4.onclick = function(){
 mult5.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 5 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#CD5555";  
+        document.getElementById("boton_" + i).style.background = "#00FF80";  
         ocupados.push(i); 
       } 
     }
@@ -74,7 +74,7 @@ mult5.onclick = function(){
 mult6.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 6 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#8B4513";
+        document.getElementById("boton_" + i).style.background = "#FFFF00";
         ocupados.push(i);   
       } 
     }
@@ -82,7 +82,7 @@ mult6.onclick = function(){
 mult7.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 7 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#8B1A1A";  
+        document.getElementById("boton_" + i).style.background = "#8000FF";  
         ocupados.push(i); 
       } 
     }
@@ -90,7 +90,7 @@ mult7.onclick = function(){
 mult8.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 8 ==0 && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#FF1493";   
+        document.getElementById("boton_" + i).style.background = "#04B404";   
         ocupados.push(i);
       } 
     }
@@ -98,7 +98,7 @@ mult8.onclick = function(){
 mult9.onclick = function(){
     for(i = 1; i <= numero; i++){
       if (i % 9 ==0  && ocupados.includes(i)== false) {
-        document.getElementById("boton_" + i).style.background = "#8B636C";  
+        document.getElementById("boton_" + i).style.background = "#FF8000";  
         ocupados.push(i); 
       } 
     }
@@ -116,7 +116,7 @@ primos.onclick = function(){
         }
         if(j == 2  && primos_O.includes(i)==false){
             j=0;
-            document.getElementById("boton_" + i).style.background = "#000";
+            document.getElementById("boton_" + i).style.background = "#DF0101";
             primos_O.push(i);
             ocupados.push(i);  
         }else if(j>2){
@@ -133,5 +133,5 @@ limpiars.onclick = function(){
         primos_O.splice(0,numero);
         
     }
-    document.getElementById("boton_1").style.background = "fff";
+    
 }
